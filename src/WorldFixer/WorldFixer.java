@@ -239,7 +239,7 @@ public class WorldFixer extends PluginBase implements Listener {
                             level.setBlockDataAt(x, y, z, 0);
                             break;
                         case 166:
-                            level.setBlockIdAt(x, y, z, Item.INVISIBLE_BEDROCK);
+                            level.setBlockIdAt(x, y, z, Item.AIR);
                             break;
                         case 177:
                             level.setBlockIdAt(x, y, z, Item.AIR);
